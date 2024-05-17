@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    width: 390px;
+    height: 844px;
+}
+
+header{
+    width: 100%;
+    height: 47px;
+}
+
+footer{
+    width: 100%;
+    height: 34px;
+}
+
+.main{
+    position: relative;
+}
+
+.id_wrap{
+    position: absolute;
+    top: 72px;
+    left: 20px;
+}
+
+.gender_wrap{
+    position: absolute;
+    top: 244px;
+    left: 20px;
+}
+
+.info_wrap{
+    position: absolute;
+    top: 419px;
+    left: 20px;
+}
+
+.form_footer{
+    position: absolute;
+    top: 710px;
+    left: 20px;
+}
+
+.id_wrap>input{
+    width: 270px;
+    height: 50px;
+    border: solid 2px #62626C;
+    border-radius: 10px;
+}
+
+.info_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info_wrap>div{
+    position: absolute;
+}
+
+.info_wrap>div>p{
+    position: absolute;
+    top: 35.5px;
+    left: 133px;
+}
+
+.age_wrap{
+    top: 61px;
+    left: 0px;
+}
+
+.tall_wrap{
+    top: 61px;
+    left: 187px;
+}
+
+.start_weight_wrap{
+    top: 181px;
+    left: 0px;
+}
+
+.pre_weight_wrap{
+    top: 181px;
+    left: 187px;
+}
+
+.info_wrap>div>input{
+    width: 170px;
+    height: 50px;
+    border: solid 2px #62626C;
+    border-radius: 10px;
+}
+
+.form_footer>input{
+    width: 350px;
+    height: 60px;
+    border: solid 2px #AECBEB;
+    border-radius: 15px;
+    background-color: #AECBEB;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.gender_wrap>label{
+    display: inline-block;
+    padding: 40px auto; 
+    border: 2px solid #62626C; 
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+}
+
+.gender_wrap>label>input{
+    opacity: 0;
+}

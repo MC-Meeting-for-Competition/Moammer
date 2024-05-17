@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./sign_in.css">
+</head>
+<body>
+    <header></header>
+    <form class="main" action="">
+        <div class="id_wrap">
+            <label for="id_input"><h2>뭐라고 불러드릴까요?</h2></label>
+            <input type="text" id="id_input" placeholder="닉네임을 입력해주세요!">
+        </div>
+        <div class="gender_wrap">
+            <h2>성별을 선택해주세요!</h2>
+            <label>
+                <input type="radio" name="gender_input" value="male"><p>남자</p> 
+            </label>
+            <label>
+                <input type="radio" name="gender_input" value="female"><p>여자</p> 
+            </label>
+        </div>
+        <div class="info_wrap">
+            <h2>추가 정보를 알려주세요</h2>
+            <div class="age_wrap">
+                <label for="age"><p>나이</p></label>
+                <input type="text" name="age" id="age">
+                <p>세</p>
+            </div>
+            <div class="tall_wrap">
+                <label for="tall"><p>키</p></label>
+                <input type="text" name="tall" id="tall">
+                <p>cm</p>
+            </div>
+            <div class="start_weight_wrap">
+                <label for="start_weight"><p>시작 체중</p></label>
+                <input type="text" name="start_weight" id="start_weight">
+                <p>kg</p>
+            </div>
+            <div class="pre_weight_wrap">
+                <label for="pre_weight"><p>목표 체중</p></label>
+                <input type="text" name="present_weight" id="present_weight">
+                <p>kg</p>
+            </div>
+        </div>
+        <div class="form_footer">
+            <input type="submit" value="완료">
+        </div>
+    </form>
+    <footer></footer>
+</body>
+</html>
