@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+
+body{
+    width: 390px;
+    height: 844px;
+    position: relative;
+}
+
+.timer_clock{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #9BA9FF;
+    position: absolute;
+    top: 225px;
+    left: 85px;
+}
+
+.timer_time{
+    width: 256px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 467px;
+    left: 67px;
+}
+
+.timer_time>I{
+    font-size: 64px;
+    position: absolute;
+
+}
